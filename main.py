@@ -1,9 +1,10 @@
-a = input("Ievadit teksts: ")
-def replaceTwos(a):
-  if a.count("2")>0:
-    a = a.replace("2","divi")
-    print(a)
+a = input("Ievadit tekst: ")
+def delete(a):
+  if a.count("e")>0:
+    a = a.replace("e"," ")
+    print(a.upper())
   else:
-    a = print("tekstu nav")
-  return a 
-replaceTwos(a)
+    a = "TEKSTS NESATUR VAJADZIGO BURTU"
+    print(a)
+  return a
+delete(a)
